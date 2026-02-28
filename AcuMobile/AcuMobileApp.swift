@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct AcuMobileApp: App {
+    @StateObject private var appState = AppState()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .environmentObject(appState)
+                .onOpenURL { url in
+                    _ = appState.connectService.handleCallback(url: url)
+                }
         }
     }
 }
