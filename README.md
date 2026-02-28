@@ -1,6 +1,5 @@
 # AcuMobile
 
-**Short description (copy-paste, ≤350 chars):**  
 AcuMobile pre-heats or pre-cools your car on your real schedule—different times each day, not fixed timers. Connect vehicles via Smartcar (Tesla, Mercedes-Benz, and more), add departure plans, and the app starts climate ahead of each leave time. Trigger it manually or pause automation anytime.
 
 ---
